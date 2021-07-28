@@ -8,18 +8,62 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const [aboutMeSelected, setAboutMeSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
+  
+  
+  
+
+  const [testState, setTestState] = useState(false);
+  console.log(`testState is ${testState}`)
+
+  // const [pages] = useState([
+  //   {
+  //     name: 'AboutMe',
+  //     description: '',
+  //   },
+  //   { name: 'Portfolio',
+  //     description: '' 
+  //   },
+  //   { name: 'Resume', 
+  //     description: '' 
+  //   },
+  //   { name: 'ContactMe', 
+  //     description: ''
+  //   },
+  // ]);
+
+  // const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div>
-      <Header />
+      <Header
+        aboutMeSelected={aboutMeSelected}
+        setAboutMeSelected={setAboutMeSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}        
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}        
+        testState={testState}
+        setTestState={setTestState}
+      ></Header>
       <main>
+
+      {!aboutMeSelected ? (
+            <>
+              <div />
+            </>
+          ) : (
+              <AboutMe />
+          )}
 
         {!contactSelected ? (
             <>
-              <AboutMe />
+              <div />
             </>
           ) : (
             <ContactMe />
@@ -27,7 +71,7 @@ function App() {
 
         {!portfolioSelected ? (
             <>
-              <AboutMe />
+              <div />
             </>
           ) : (
               <Portfolio />
@@ -35,11 +79,11 @@ function App() {
 
         {!resumeSelected ? (
             <>
-              <AboutMe />
+              <div />
             </>
           ) : (
               <Resume />
-          )}
+          )}        
         
         <Footer />  
       </main>   
