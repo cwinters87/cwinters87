@@ -10,8 +10,9 @@ function App() {
 
   const [aboutMeSelected, setAboutMeSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
+  
   
   
   
