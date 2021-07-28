@@ -1,36 +1,32 @@
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Navigation from './Navigation'
 
-function Header({ 
-    aboutMeSelected, 
-    setAboutMeSelected, 
-    portfolioSelected, 
-    setPortfolioSelected, 
-    contactSelected, 
-    setContactSelected, 
-    resumeSelected, 
+function Header({  
+    setAboutMeSelected,
+    setPortfolioSelected,
+    setContactSelected,
     setResumeSelected, 
-    testState, 
-    setTestState 
     }) 
     {
-    // console.log(`testState is ${testState}`)
     
     return (
-        <div>
-            <h1>This is the header</h1>        
-            <Navigation 
-                aboutMeSelected={aboutMeSelected}
-                setAboutMeSelected={setAboutMeSelected}
-                portfolioSelected={portfolioSelected}
-                setPortfolioSelected={setPortfolioSelected}
-                contactSelected={contactSelected}
-                setContactSelected={setContactSelected}        
-                resumeSelected={resumeSelected}
-                setResumeSelected={setResumeSelected}        
-                testState={testState}
-                setTestState={setTestState}
-            />
-        </div>
+        <Container>
+            <Row>
+                <Col>
+                    <h1>Chris Winters</h1>
+                </Col>
+                <Col md="auto">
+                    <Navigation
+                        setAboutMeSelected={setAboutMeSelected}
+                        setPortfolioSelected={setPortfolioSelected}
+                        setContactSelected={setContactSelected}
+                        setResumeSelected={setResumeSelected}
+                    />
+                </Col>
+            </Row>            
+        </Container>
     )
 }
 
