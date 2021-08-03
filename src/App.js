@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Container from 'react-bootstrap/Container'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio';
@@ -14,7 +15,7 @@ function App() {
   const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
-    <div>
+    <Container fluid>
       <Header
         setAboutMeSelected={setAboutMeSelected}
         setPortfolioSelected={setPortfolioSelected}
@@ -54,11 +55,12 @@ function App() {
           ) : (
               <Resume />
           )}        
-        
-        <Footer />  
-      </main>   
+
+      </main>
       
-    </div>
+      <Footer />    
+      
+    </Container>
   );
 }
 

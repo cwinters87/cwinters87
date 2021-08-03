@@ -10,7 +10,7 @@ function Navigation({
     setResumeSelected, 
     }) {
 
-    return (
+    return ( 
                 // <Nav className="justify-content-end" variant="pills" defaultActiveKey="link-1">
                 // <Nav.Item>
                 //     <Nav.Link eventKey="link-1" onClick={function() {
@@ -51,9 +51,9 @@ function Navigation({
                 // <Nav className="justify-content-end" variant="pills" defaultActiveKey="link-1">
                 // <Nav.Item>
                 //     <Nav.Link eventKey="link-1" onClick={function() {
-
+                <div className="d-flex justify-content-end">
                 <Navbar collapseOnSelect expand="lg">
-                    <Container>
+                    <Container >
                         {/* <Navbar.Brand>Chris Winters</Navbar.Brand> */}
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
@@ -98,6 +98,7 @@ function Navigation({
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+                </div>
 
 
 

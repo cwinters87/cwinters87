@@ -12,3 +12,30 @@ code {
     monospace;
 }
 
+#hero {
+  height: 150px;
+  padding: 10px;
+  background-color: teal;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+}
+
+#nav-bar-position {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-section a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+}

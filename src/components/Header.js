@@ -1,4 +1,3 @@
-import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Navigation from './Navigation'
@@ -12,12 +11,12 @@ function Header({
     {
     
     return (
-        <Container>
-            <Row>
-                <Col>
+        
+            <Row id="hero">
+                <Col className="header-center">
                     <h1>Chris Winters</h1>
                 </Col>
-                <Col md="auto">
+                <Col className="header-center" id="nav-bar-position">
                     <Navigation
                         setAboutMeSelected={setAboutMeSelected}
                         setPortfolioSelected={setPortfolioSelected}
@@ -26,7 +25,7 @@ function Header({
                     />
                 </Col>
             </Row>            
-        </Container>
+        
     )
 }
 
