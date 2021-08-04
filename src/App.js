@@ -15,15 +15,16 @@ function App() {
   const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
-    <Container fluid>
+    <Container fluid id="container">
+
       <Header
         setAboutMeSelected={setAboutMeSelected}
         setPortfolioSelected={setPortfolioSelected}
         setContactSelected={setContactSelected}
         setResumeSelected={setResumeSelected}
       ></Header>
-      <main>
 
+      <main className="main-div">
       {!aboutMeSelected ? (
             <>
               <div />
@@ -54,10 +55,9 @@ function App() {
             </>
           ) : (
               <Resume />
-          )}        
-
+          )}
       </main>
-      
+
       <Footer />    
       
     </Container>
