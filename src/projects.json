@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Tech Blog",
+      "image": "https://images.unsplash.com/photo-1454190358526-f809c8b16d98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80",
+      "github": "https://github.com/cwinters87/cdubs-tech-blog",
+      "url": "https://cdubs-tech-blog.herokuapp.com/",
+      "tech": "Node.js, MySQL, Handlebars"
+    },
+    {
+      "id": 2,
+      "name": "Weather Dashboard",
+      "image": "https://images.unsplash.com/photo-1542736488-0310e7bbc38a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
+      "github": "https://github.com/cwinters87/weather-dashboard",
+      "url": "https://cwinters87.github.io/weather-dashboard/",
+      "tech": "JavaScript"
+    },
+    {
+      "id": 3,
+      "name": "Work-Day Scheduler",
+      "image": "https://images.unsplash.com/photo-1542296139-9a15e154e654?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80",
+      "github": "https://github.com/cwinters87/work-day-scheduler",
+      "url": "https://cwinters87.github.io/work-day-scheduler/",
+      "tech": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Social Network Back-End",
+      "image": "https://images.unsplash.com/photo-1542989708-af18b5089d10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80",
+      "github": "https://github.com/cwinters87/cdubs-mongodb-social-network",
+      "url": "https://drive.google.com/file/d/1AkAK0W-fH1xb0BLxOnGgtbRtWvslQZw6/view",
+      "tech": "Node.js, MongoDB"
+    },
+    {
+      "id": 5,
+      "name": "README.MD Generator",
+      "image": "https://images.unsplash.com/photo-1543187018-21e461e7538e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80",
+      "github": "https://github.com/cwinters87/readme-generator",
+      "url": "https://drive.google.com/file/d/1S2Yx8n47qZ1PzpBfl0pDaow_h9GrLzXn/view",
+      "tech": "Node.js"
+    },
+    {
+      "id": 6,
+      "name": "Password Generator",
+      "image": "https://images.unsplash.com/photo-1544232865-5295da78a517?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "github": "https://github.com/cwinters87/password-generator",
+      "url": "https://cwinters87.github.io/password-generator/",
+      "tech": "Javascript"
+    },
+    {
+      "id": 7,
+      "name": "Back-End for E-Commerce",
+      "image": "https://images.unsplash.com/photo-1543606732-d5417e0ec813?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      "github": "https://github.com/cwinters87/cdubs-backend-store",
+      "url": "https://drive.google.com/file/d/10xbV2_wNqcV5vv47qC1lYpfoCrjA2BYB/view",
+      "tech": "Node.js, Express, Sequelize"
+    },
+    {
+      "id": 8,
+      "name": "Landing Page for Run-Buddy",
+      "image": "https://images.unsplash.com/photo-1539533841479-4855ae53641c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+      "github": "https://github.com/cwinters87/run-buddy",
+      "url": "https://cwinters87.github.io/run-buddy/",
+      "tech": "HTML, CSS"
+    }
+  ]
