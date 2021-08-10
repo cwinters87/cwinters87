@@ -1,0 +1,72 @@
+#contact-me-container {
+    padding-top: 50px;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+
+#contact-form {
+    max-height: 100%;
+    width: 40%;
+    overflow: auto;
+    font-size: large;
+}
+
+label {
+    padding-right: 5px;
+}
+  
+input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid #023047;
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+}
+  
+input:focus {
+    width: 40%;
+    border: 1px solid #219ebc;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 0.25rem;
+}
+
+button {
+    background: #219ebc;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.contact-section-divs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3px;
+}
+
+#message-div {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    #contact-form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact-form {
+        width: 100%;
+    }
+}
