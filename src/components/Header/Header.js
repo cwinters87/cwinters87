@@ -1,6 +1,7 @@
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Navigation from '../Navigation/Navigation'
+import './style.css'
 
 function Header({  
     setAboutMeSelected,
@@ -14,7 +15,7 @@ function Header({
         
             <Row id="hero">
                 <Col className="header-center">
-                    <h1>Chris Winters</h1>
+                    <h1 id="page-title">Chris Winters</h1>
                 </Col>
                 <Col className="header-center" id="nav-bar-position">
                     <Navigation

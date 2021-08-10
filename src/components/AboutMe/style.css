@@ -1,0 +1,53 @@
+#about-me-container {
+    padding-top: 50px;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+
+#about-me-wrapper {
+  max-height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+  /* justify-content: space-around;
+  align-content: flex-start; */
+  overflow: auto;
+}
+
+#profile-pic {
+    height: 240px;
+    width: 450px;
+    margin-top: 10px;
+    
+    /* margin-bottom: 10px; */
+    /* margin-left: 10%; */
+}
+
+#profile-pic > img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px #219ebc, 0 3px 6px #219ebc;
+    
+    
+    /* border-radius: 10px; */
+}
+
+#text-div {
+    display: flex;
+    align-content: center;
+
+}
+
+#about-me-text {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: large;
+    /* margin-top: 10px; */
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}

@@ -6,7 +6,6 @@ function Portfolio(props) {
             <h1 className="title">Portfolio</h1>
             <div className="wrapper">{props.children}</div>
         </div>
-        
     )
 }
 

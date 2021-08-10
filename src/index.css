@@ -36,7 +36,7 @@ body {
 }
 
 #hero {
-  height: 25%;
+  height: 20%;
   padding: 10px;
   background-color: #219ebc;
 }
@@ -54,13 +54,14 @@ body {
 }
 
 .main-div {
-  height: 65%;
+  height: 70%;
   padding: 2%;
   color: white;
 }
 
 #footer-div {
   height: 10%;
+  padding-top: 5px;
   display: flex;
   justify-content: center;
 }
