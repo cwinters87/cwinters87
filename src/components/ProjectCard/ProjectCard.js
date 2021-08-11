@@ -10,7 +10,7 @@ function ProjectCard(props) {
       <div className="content">
         <ul>
           <li>
-          <a href={props.url} rel="noreferrer" target="_blank">{props.name}</a><a href={props.github} rel="noreferrer" target="_blank"><i className="fa fa-github"></i></a>
+          <a href={props.url} rel="noreferrer" target="_blank">{props.name}</a><span><a href={props.github} rel="noreferrer" target="_blank"><i className="fa fa-github"></i></a></span>
           </li>
           
           <li>

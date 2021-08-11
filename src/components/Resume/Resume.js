@@ -10,12 +10,12 @@ function Resume() {
             <Row>
                 <h1>Resume</h1>
             </Row>
-            <Row>
-                <Col>Download my <a href={require("../../assets/files/Chris-Winters-Resume.pdf").default}download>resume</a></Col>
+            <Row id="download-div">
+                <Col>Download my <a id="resume-link" href={require("../../assets/files/Chris-Winters-Resume.pdf").default}download>resume</a></Col>
             </Row>
             <Row id="resume-list-div">
                 <div id="resume-list-items">
-                    <ul id="front-end-list">Front-end Proficiencies
+                    <ul id="front-end-list">Front-end Proficiencies:
                         <li>React</li>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -25,9 +25,10 @@ function Resume() {
                         <li>Bootstrap</li>
                         <li>Materialize</li>
                     </ul>
-                    <ul id="back-end-list">Back-end Proficiencies
+                    <ul id="back-end-list">Back-end Proficiencies:
                         <li>Node.js</li>
                         <li>Express.js</li>
+                        <li>REST API</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>
                         <li>MySQL</li>

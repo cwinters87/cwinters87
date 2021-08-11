@@ -48,6 +48,12 @@ button {
     padding: 10px 15px;
 }
 
+button:hover {
+    transition: 0.5s;
+    background-color: #fb8500;
+    color: black;
+}
+
 .contact-section-divs {
     display: flex;
     flex-direction: column;

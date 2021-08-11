@@ -21,3 +21,24 @@
     list-style-type: none;
     padding-left: 15px;
 }
+
+#download-div {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #219ebc;
+}
+
+#resume-link {
+    color: #fb8500;
+}
+
+#resume-link:hover {
+    transition: 0.5s;
+    color: #ffb703;
+    font-size: larger;
+}
+
+#resume-list-items > ul > li:hover {
+    color: #fb8500;
+}
+
