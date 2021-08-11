@@ -24,7 +24,7 @@ function Navigation({
                                         setPortfolioSelected(false)
                                         setContactSelected(false)
                                         setResumeSelected(false)
-                                            }}>About Me
+                                            }}><span className="navagation-links">About Me</span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
@@ -33,7 +33,7 @@ function Navigation({
                                         setPortfolioSelected(true)
                                         setContactSelected(false)
                                         setResumeSelected(false)
-                                            }}>Portfolio
+                                            }}><span className="navagation-links">Portfolio</span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
@@ -42,7 +42,7 @@ function Navigation({
                                         setPortfolioSelected(false)
                                         setContactSelected(true)
                                         setResumeSelected(false)
-                                            }}>Contact
+                                            }}><span className="navagation-links">Contact</span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
@@ -51,7 +51,7 @@ function Navigation({
                                         setPortfolioSelected(false)
                                         setContactSelected(false)
                                         setResumeSelected(true)
-                                            }}>Resume
+                                            }}><span className="navagation-links">Resume</span>
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>

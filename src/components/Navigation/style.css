@@ -1,13 +1,21 @@
-/* #nav-bar-position {
-    display: flex;
-    justify-content: 
-    flex-end;
-  } */
-
 #nav-div {
   display: flex;
   justify-content: flex-end;
 }
+
+.navagation-links {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navagation-links:hover {
+  transition: .5s;
+  color: #fb8500;
+  font-size: large;
+  font-weight: bold;
+}
+
 
 @media screen and (max-width: 991px) {
   #nav-div {

@@ -38,7 +38,7 @@ function ContactMe() {
 
   return (
     <section id="contact-me-container">
-      <h1 className="contact-title" data-testid="h1tag">Contact me</h1>
+      <h1 className="contact-title" data-testid="h1tag">Contact</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div id="name-div" className="contact-section-divs">
           <label htmlFor="name">Name:</label>
