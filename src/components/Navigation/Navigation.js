@@ -2,6 +2,7 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
+import './style.css'
 
 function Navigation({ 
     setAboutMeSelected, 
@@ -11,12 +12,12 @@ function Navigation({
     }) {
 
     return ( 
-                <div className="d-flex justify-content-end">
+                <div id="nav-div" className="d-flex">
                 <Navbar collapseOnSelect expand="lg">
-                    <Container >
+                    <Container id="nav-div-container">
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="me-auto justify-content-end" variant="pills" defaultActiveKey="link-1">
+                            <Nav className="me-auto justify-content-end" defaultActiveKey="link-1">
                                 <Nav.Item>
                                     <Nav.Link eventKey="link-1" onClick={function() {
                                         setAboutMeSelected(true)

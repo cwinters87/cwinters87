@@ -1,0 +1,20 @@
+/* #nav-bar-position {
+    display: flex;
+    justify-content: 
+    flex-end;
+  } */
+
+#nav-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 991px) {
+  #nav-div {
+    justify-content: flex-start;
+  }
+
+  #nav-div-container {
+    padding: 0%;
+  }
+}

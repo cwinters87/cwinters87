@@ -14,10 +14,12 @@ function Header({
     return (
         
             <Row id="hero">
-                <Col className="header-center">
+
+                <Col id="title-position" className="header-center" lg={true}>
                     <h1 id="page-title">Chris Winters</h1>
                 </Col>
-                <Col className="header-center" id="nav-bar-position">
+                
+                <Col id="nav-bar-position" className="header-center" lg={true}>
                     <Navigation
                         setAboutMeSelected={setAboutMeSelected}
                         setPortfolioSelected={setPortfolioSelected}
@@ -25,6 +27,7 @@ function Header({
                         setResumeSelected={setResumeSelected}
                     />
                 </Col>
+
             </Row>            
         
     )

@@ -23,17 +23,10 @@ body {
   background-color: #219ebc;
 }
 
-.header-center {
+/* .header-center {
   display: flex;
   align-items: center;
-  color: white;
-}
-
-#nav-bar-position {
-  display: flex;
-  justify-content: 
-  flex-end;
-}
+} */
 
 .main-div {
   height: 70%;
@@ -41,21 +34,16 @@ body {
   color: white;
 }
 
-#footer-div {
-  height: 10%;
-  padding-top: 5px;
-  display: flex;
-  justify-content: center;
+@media screen and (max-width: 991px) {
+
+  #hero {
+    height: auto;
+    padding-left: 20px;
+  }
+
+  #main-div {
+    height: auto;
+  }
 }
 
-#footer-div a {
-  padding: 10px;
-  text-decoration: none;
-  font-size: 50px;
-  color: black;
-}
 
-#footer-div a:hover {
-  transition: 0.5s;
-  color: #fb8500;
-}

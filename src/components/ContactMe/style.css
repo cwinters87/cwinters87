@@ -36,7 +36,7 @@ textarea {
     padding: 0.25rem;
 }
 
-button {
+#contact-btn {
     background: #219ebc;
     border: 0;
     border-radius: 5px;
@@ -48,7 +48,7 @@ button {
     padding: 10px 15px;
 }
 
-button:hover {
+#contact-btn:hover {
     transition: 0.5s;
     background-color: #fb8500;
     color: black;

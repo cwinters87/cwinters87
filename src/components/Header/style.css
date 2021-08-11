@@ -1,3 +1,19 @@
+#title-position {
+    display: flex;
+    align-items: center;
+}
+
 #page-title {
     font-weight: bold;
 }
+
+#nav-bar-position {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 991px) {
+    #nav-bar-position {
+      justify-content: flex-start;
+    }
+  }
