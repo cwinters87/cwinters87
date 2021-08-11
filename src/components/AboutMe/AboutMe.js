@@ -1,5 +1,5 @@
 
-import ProfilePic from '../../img/swiss.JPG'
+import ProfilePic from '../../assets/img/swiss.JPG'
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"

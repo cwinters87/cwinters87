@@ -1,0 +1,23 @@
+#resume-container {
+    padding-top: 50px;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+
+#resume-list-div {
+    max-height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+#resume-list-items > ul {
+    padding: 0;
+}
+
+#resume-list-items > ul > li {
+    list-style-type: none;
+    padding-left: 15px;
+}

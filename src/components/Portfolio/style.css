@@ -4,13 +4,7 @@
   background: #023047;
   height: 100%;
   position: relative;
-  /* overflow-y: auto; */
-  /* display: flex; */
-  /* flex-flow: row wrap; */
   padding: 20px;
-  /* justify-content: space-around;
-  align-content: flex-start;
-  overflow: auto; */
 }
 
 .wrapper {  

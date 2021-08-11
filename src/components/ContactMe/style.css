@@ -26,7 +26,6 @@ input {
 }
   
 input:focus {
-    width: 40%;
     border: 1px solid #219ebc;
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
