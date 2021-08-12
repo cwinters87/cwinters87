@@ -16,6 +16,7 @@ body {
 
 #root {
   height: 100%;
+  font-family: 'Red Hat Display';
 }
 
 #container {
@@ -28,11 +29,6 @@ body {
   padding: 10px;
   background-color: var(--secondary);
 }
-
-/* .header-center {
-  display: flex;
-  align-items: center;
-} */
 
 .main-div {
   height: 70%;
