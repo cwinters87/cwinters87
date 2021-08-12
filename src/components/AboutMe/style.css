@@ -24,7 +24,7 @@
     max-width: 100%;
     display: block;
     border-radius: 5px;
-    box-shadow: 0 3px 6px #219ebc, 0 3px 6px #219ebc;
+    box-shadow: 0 3px 6px var(--secondary), 0 3px 6px var(--secondary);
 }
 
 #text-div {

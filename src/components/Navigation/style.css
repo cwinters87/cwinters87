@@ -11,7 +11,7 @@
 
 .navagation-links:hover {
   transition: .5s;
-  color: #fb8500;
+  color: var(--tertiary);
   font-size: large;
   font-weight: bold;
 }

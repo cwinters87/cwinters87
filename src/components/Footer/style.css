@@ -14,5 +14,5 @@
   
   #footer-div a:hover {
     transition: 0.5s;
-    color: #fb8500;
+    color: var(--tertiary);
   }

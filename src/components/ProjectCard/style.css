@@ -1,23 +1,27 @@
+.portfolio-div-link {
+  text-decoration: none;
+}
+
 .card {
-  background: #219ebc;
+  background: var(--secondary);
   height: 325px;
   margin: 1rem;
   position: relative;
   width: 325px;
-  box-shadow: 0 3px 6px #219ebc, 0 3px 6px #219ebc;
+  box-shadow: 0 3px 6px var(--secondary), 0 3px 6px var(--secondary);
   text-align: left;
 }
 
 .card:hover {
   transition: 0.5s;
-  box-shadow: 0 8px 12px #fb8500, 0 8px 12px #fb8500;
+  box-shadow: 0 8px 12px var(--tertiary), 0 8px 12px var(--tertiary);
 }
 
 .card > .img-container {
   height: 65%;
   overflow: hidden;
   text-align: center;
-  background:#219ebc;
+  background: var(--secondary);
   border-radius: 3px 3px 0px 0px;
 }
 .card > .img-container > img {
@@ -31,7 +35,7 @@
   padding-right: 1rem;
   font-size: large;
   font-weight: bold;
-  background:#219ebc;
+  background: var(--secondary);
   border-radius: 0px 0px 3px 3px;
 }
 
@@ -59,12 +63,12 @@
 
 .card > .content > ul > li > span > a:hover {
   transition: 0.5s;
-  color: #fb8500;
+  color: var(--tertiary);
 }
 
 .card > .content > ul > li > a:hover {
   transition: 0.5s;
-  color: #fb8500;
+  color: var(--tertiary);
 }
 
 @media screen and (max-width: 991px) {

@@ -1,3 +1,9 @@
+:root {
+  --primary: #023047;
+  --secondary: #219ebc;
+  --tertiary: #fb8500;
+}
+
 html, body {
   margin: 0;
   height: 100%;
@@ -13,14 +19,14 @@ body {
 }
 
 #container {
-  background-color: #023047;
+  background-color: var(--primary);
   height: 100%;
 }
 
 #hero {
   height: 20%;
   padding: 10px;
-  background-color: #219ebc;
+  background-color: var(--secondary);
 }
 
 /* .header-center {

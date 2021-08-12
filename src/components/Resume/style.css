@@ -29,16 +29,12 @@
 }
 
 #resume-link {
-    color: #fb8500;
+    color: var(--tertiary);
 }
 
 #resume-link:hover {
     transition: 0.5s;
     color: #ffb703;
     font-size: larger;
-}
-
-#resume-list-items > ul > li:hover {
-    color: #fb8500;
 }
 
