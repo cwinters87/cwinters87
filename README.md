@@ -10,7 +10,7 @@ This [Portfolio](https://cwinters87.github.io/cwinters87/) is collection of the 
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
+- [Link](#tests)
 - [Questions](#questions)
 ## Installation
 💾 Clone from GitHub, run npm install in the CL, and then npm start.
@@ -20,7 +20,7 @@ This [Portfolio](https://cwinters87.github.io/cwinters87/) is collection of the 
 [![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br /> This application is covered by the MIT license.
 ## Contributing
 👪 Chris Winters
-## Tests
+## Link
 ✏️ Here is a link the [site](https://cwinters87.github.io/cwinters87/).
 
 And he is what the site looks like:
