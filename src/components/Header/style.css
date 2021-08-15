@@ -1,5 +1,5 @@
 #hero {
-    background-image: linear-gradient(to bottom right, var(--tertiary), var(--secondary));
+    background-image: linear-gradient(to bottom right, var(--secondary), var(--primary));
 }
 
 #title-position {
@@ -8,6 +8,7 @@
 }
 
 #page-title {
+    color: white;
     font-weight: bolder;
 }
 
