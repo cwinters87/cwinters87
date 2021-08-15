@@ -1,3 +1,7 @@
+#hero {
+    background-image: linear-gradient(to bottom right, var(--tertiary), var(--secondary));
+}
+
 #title-position {
     display: flex;
     align-items: center;
