@@ -14,9 +14,7 @@
 }
 
 #profile-pic {
-    height: 240px;
-    width: 450px;
-    margin-top: 10px;
+    flex: 25%;
 }
 
 #profile-pic > img {
@@ -28,13 +26,24 @@
 }
 
 #text-div {
+    flex: 75%;
     display: flex;
-    align-content: center;
+    padding-left: 2%;
 }
 
 #about-me-text {
     display: flex;
-    align-content: center;
     flex-wrap: wrap;
+    padding-top: 2%;
     font-size: large;
+}
+
+@media screen and (max-width: 991px) {
+    #about-me-wrapper {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    #text-div {
+        padding-left: 0%;
+    }
 }
