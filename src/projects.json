@@ -62,13 +62,5 @@
       "github": "https://github.com/cwinters87/run-buddy",
       "url": "https://cwinters87.github.io/run-buddy/",
       "tech": "HTML, CSS"
-    },
-    {
-      "id": 9,
-      "name": "Final Project (3)",
-      "image": "https://images.unsplash.com/photo-1539533841479-4855ae53641c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
-      "github": "https://github.com/anjubimal/Project3y",
-      "url": "https://frozen-atoll-82959.herokuapp.com",
-      "tech": "React, GraphQL, Node.JS, Express.JS"
     }
   ]
