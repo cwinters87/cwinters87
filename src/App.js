@@ -11,8 +11,8 @@ import Projects from './projects.json';
 
 function App() {
 
-  const [aboutMeSelected, setAboutMeSelected] = useState(true);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [aboutMeSelected, setAboutMeSelected] = useState(false);
+  const [portfolioSelected, setPortfolioSelected] = useState(true);
   const [contactSelected, setContactSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
 

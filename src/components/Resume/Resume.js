@@ -13,14 +13,13 @@ function Resume() {
             <Row id="download-div">
                 <Col>Download my <a id="resume-link" href={require("../../assets/files/Chris-Winters-Resume.pdf").default}download>resume</a></Col>
             </Row>
-            <Row id="resume-list-div">
-                <div id="resume-list-items">
+            <div id="resume-list-items">
                     <ul id="front-end-list">Front-end Proficiencies:
                         <li>React</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>  
                         <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>JQuery</li>                        
+                        <li>CSS</li>                                              
                         <li>Handlebars</li>
                         <li>Bootstrap</li>
                         <li>Materialize</li>
@@ -28,15 +27,12 @@ function Resume() {
                     <ul id="back-end-list">Back-end Proficiencies:
                         <li>Node.js</li>
                         <li>Express.js</li>
+                        <li>GraphQL</li>
                         <li>REST API</li>
                         <li>MongoDB</li>
-                        <li>Mongoose</li>
                         <li>MySQL</li>
-                        <li>Sequelize</li>
-                        <li>Progressive Web Apps</li>
                     </ul>
-                </div>
-            </Row>
+            </div>
         </Container>
     )
 }

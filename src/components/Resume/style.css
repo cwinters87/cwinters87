@@ -1,25 +1,10 @@
 #resume-container {
-    padding-top: 50px;
-    padding: 20px;
-    height: 100%;
+    
+    
+    height: 95%;
     position: relative;
-}
-
-#resume-list-div {
-    max-height: 100%;
-    overflow-y: auto;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-}
-
-#resume-list-items > ul {
-    padding: 0;
-}
-
-#resume-list-items > ul > li {
-    list-style-type: none;
-    padding-left: 15px;
+    padding: 20px 0px 0px 20px;
+    margin-bottom: 20px;
 }
 
 #download-div {
@@ -37,4 +22,33 @@
     color: #ffb703;
     font-size: larger;
 }
+
+#resume-list-items {
+    max-height: 92%;   
+    overflow: auto;
+}
+
+#resume-list-items::-webkit-scrollbar {
+    display: none;
+}
+
+#resume-list-items > ul {
+    padding: 0;
+}
+
+#resume-list-items > ul > li {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+/* #front-end-list {
+    max-height: 50%;
+}
+
+#back-end-list {
+    max-height: 50%;
+} */
+
+
+
 
